@@ -11,7 +11,7 @@
     <Folder Include="Domain\" />
     <Folder Include="Models\ViewComponents\" />
     <Folder Include="Service\" />
-    <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Shared\Components\Sidebar\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
