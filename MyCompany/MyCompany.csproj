@@ -11,8 +11,6 @@
 
   <ItemGroup>
     <Folder Include="Controllers\Views\" />
-    <Folder Include="Models\ViewComponents\" />
-    <Folder Include="Views\Shared\Components\Sidebar\" />
   </ItemGroup>
 
   <ItemGroup>
