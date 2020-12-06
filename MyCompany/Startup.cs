@@ -38,7 +38,7 @@ namespace MyCompany
             services.AddTransient<DataManager>();
 
             //подключаем контекст БД
-            services.AddDbContext<AppDbContext>(x => x.UseSqlServer(Config.ConnectionString));
+            services.AddDbContext<AppDbContext>(x => x.UseSqlServer(Config.ConnectionString, b => b.MigrationsAssembly("MyCompany")));
 
             //настраиваем identity систему
             services.AddIdentity<IdentityUser, IdentityRole>(opts =>
